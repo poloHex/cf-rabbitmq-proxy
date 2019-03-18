@@ -6,7 +6,7 @@ const httpProxy = require("http-proxy");
 const winston = require("winston");
 
 const vcapServices = JSON.parse(process.env.VCAP_SERVICES);
-const serviceUrl = url.parse(vcapServices.rabbitmqent[0].credentials.protocols.management.uri);
+const serviceUrl = url.parse(vcapServices.rabbitmq[0].credentials.protocols.management.uri);
 const address = {
   host: serviceUrl.hostname,
   port: serviceUrl.port,

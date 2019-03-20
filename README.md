@@ -1,6 +1,6 @@
-# CF RabbitMQ Enterprise Proxy
+# CF RabbitMQ Proxy
 
-This small proxy app helps you to make your RabbitMQ instance dashboard from a SAP Cloud Platform publicly available. For it to work, the app needs to be bound to your RabbitMQ service instance.
+This small proxy app helps you to make your RabbitMQ instance dashboard from a SAP Cloud Platform publicly available. For it to work, the app needs to be bound to your Managed RabbitMQ service instance. (This does not work for dev plan instances)
 
 ## How to use
 

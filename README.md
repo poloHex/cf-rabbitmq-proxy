@@ -6,5 +6,5 @@ This small proxy app helps you to make your RabbitMQ instance dashboard from a S
 
 1. Clone this repo
 1. Change the `host` in `manifest.yml` to something that isn't taken yet
-1. Change the entry in `services` in `manifest.yml` from `rabbitmq-ent` to the name of your RabbitMQ instance in Cloud Foundry
+1. Change the entry in `services` in `manifest.yml` from `rabbitmqInstanceName` to the name of your RabbitMQ instance in Cloud Foundry
 1. Run `cf push` 
